@@ -18,6 +18,9 @@ const resolvers = {
     helloJuanValencia: (_, { message }) => {
         return `¡Hola, ${message}! Un saludo por parte de Juan Camilo `;
       },
+    helloDeibyMuñoz: (_, { message }) => {
+        return `¡Hola, ${message}! Un saludo por parte de Deiby Muñoz `;
+      },
   },
 };
 
